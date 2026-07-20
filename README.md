@@ -1,5 +1,4 @@
-# cleantexttools-core
-Limited open-source core edition of CleanTextTools for cleaning Markdown, spacing and hidden text artifacts in the browser.
+
 # CleanTextTools Core
 
 CleanTextTools Core is the limited open-source edition of CleanTextTools. It provides essential browser-based functions for removing common Markdown, spacing and hidden-character artifacts from AI-generated text.
