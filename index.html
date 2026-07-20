@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CleanTextTools Core</title>
+  <meta name="description" content="CleanTextTools Core is the open-source edition of CleanTextTools for removing Markdown, spacing issues and hidden characters directly in your browser.">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <header>
+      <p class="eyebrow">Open-Source Core Edition</p>
+
+      <h1>CleanTextTools Core</h1>
+
+      <p>
+        Clean AI-generated text by removing common Markdown formatting,
+        spacing issues and hidden characters while preserving the original wording.
+      </p>
+    </header>
+
+    <section class="cleaner">
+
+      <h2>Paste Your Text</h2>
+
+      <textarea
+        id="inputText"
+        placeholder="Paste AI-generated text here..."
+        rows="12"></textarea>
+
+      <fieldset>
+        <legend>Cleaning Options</legend>
+
+        <label>
+          <input type="checkbox" id="removeMarkdown" checked>
+          Remove Markdown formatting
+        </label>
+
+        <label>
+          <input type="checkbox" id="fixSpacing" checked>
+          Fix spacing and blank lines
+        </label>
+
+        <label>
+          <input type="checkbox" id="removeHidden" checked>
+          Remove hidden characters
+        </label>
+      </fieldset>
+
+      <div class="actions">
+        <button id="cleanButton">Clean Text</button>
+        <button id="copyButton">Copy Result</button>
+        <button id="clearButton">Clear</button>
+      </div>
+
+      <h2>Cleaned Text</h2>
+
+      <textarea
+        id="outputText"
+        readonly
+        rows="12"
+        placeholder="Your cleaned text will appear here..."></textarea>
+
+      <p id="status"></p>
+
+    </section>
+
+    <section>
+
+      <h2>About CleanTextTools Core</h2>
+
+      <p>
+        CleanTextTools Core is a limited open-source edition designed to
+        demonstrate the core browser-based text-cleaning engine.
+      </p>
+
+      <p>
+        The complete hosted version includes additional cleaning options,
+        platform-specific workflows, continuous improvements and a richer user experience.
+      </p>
+
+      <p>
+        Visit the full product at:
+      </p>
+
+      <p>
+        <a href="https://cleantexttools.com" target="_blank">
+          https://cleantexttools.com
+        </a>
+      </p>
+
+    </section>
+
+    <footer>
+
+      <hr>
+
+      <p>
+        © 2026 CleanTextTools Core
+      </p>
+
+      <p>
+        Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+      </p>
+
+    </footer>
+
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
